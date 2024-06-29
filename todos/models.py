@@ -7,4 +7,4 @@ class Todo(models.Model):
     isCompleted = models.BooleanField(default=False)
 
     def __str__(self):
-        return self.title
+        return self.title 
